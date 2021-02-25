@@ -1,8 +1,11 @@
 import imageio
 
-numFile = 14
+numFile = 17
 
-files = ["fake_samples_epoch_%03d.png" % (i) for i in range(1, numFile)]
+files = [
+    "/Users/yongweixing/fake_samples_epoch_%03d.png" % (i)
+    for i in range(1, numFile)
+]
 
 imgs = []
 
